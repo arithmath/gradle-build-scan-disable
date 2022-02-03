@@ -6,6 +6,6 @@ rootProject.name = 'hoge'
 
 gradleEnterprise {
   buildScan {
-    //server = 'http://localhost' // 追加
+    server = 'http://localhost' // 追加
   }
 }
