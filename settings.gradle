@@ -1,0 +1,11 @@
+plugins {
+    id "com.gradle.enterprise" version "3.8.1" # 追加
+}
+
+rootProject.name = 'hoge'
+
+gradleEnterprise {
+  buildScan {
+    server = 'http://localhost' # 追加
+  }
+}

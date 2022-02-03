@@ -1,0 +1,20 @@
+$ ./gradlew build --scan
+
+BUILD SUCCESSFUL in 1s
+7 actionable tasks: 7 up-to-date
+
+Publishing build scan...
+Publishing build scan failed due to network error 'java.net.ConnectException: Connection refused' (2 retries remaining)...
+Publishing build scan failed due to network error 'java.net.ConnectException: Connection refused' (1 retry remaining)...
+
+A network error occurred.
+
+If you require assistance with this problem, please report it to your Gradle Enterprise administrator and include the following information via copy/paste.
+
+----------
+Gradle version: 7.3.3
+Plugin version: 3.8.1
+Request URL: http://localhost/scans/publish/gradle/3.8.1/token
+Request ID: 1b8c2754-4b67-4619-8b9c-037777a22701
+Exception: java.net.ConnectException: Connection refused
+----------
