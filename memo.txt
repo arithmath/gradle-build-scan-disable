@@ -1,4 +1,4 @@
-$ ./gradlew build --scan
+$ ./gradlew build --scan                                                                                                                              [master]
 
 BUILD SUCCESSFUL in 1s
 7 actionable tasks: 7 up-to-date
@@ -15,6 +15,6 @@ If you require assistance with this problem, please report it to your Gradle Ent
 Gradle version: 7.3.3
 Plugin version: 3.8.1
 Request URL: http://localhost/scans/publish/gradle/3.8.1/token
-Request ID: 1b8c2754-4b67-4619-8b9c-037777a22701
+Request ID: 977843b8-d621-48cd-8237-06134b01730c
 Exception: java.net.ConnectException: Connection refused
 ----------
